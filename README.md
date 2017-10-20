@@ -12,7 +12,12 @@ None.
 
 Available variables are listed below, along with default values (see `defaults/main.yml`):
 
-    kibana_version: "4.6"
+    kibana_major_version: "5.x"
+    kibana_install_state: present
+    
+    kibana_config_file_path: "/etc/kibana/kibana.yml"
+
+kibana_elasticsearch_url: "http://localhost:9200"
 
 The version of kibana to install (major and minor only).
 

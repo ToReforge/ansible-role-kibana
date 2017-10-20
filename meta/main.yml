@@ -1,9 +1,10 @@
 ---
+
 dependencies: []
 
 galaxy_info:
   author: geerlingguy
-  description: Kibana for Linux.
+  description: Kibana for Linux
   company: "Midwestern Mac, LLC"
   license: "license (BSD, MIT)"
   min_ansible_version: 2.0
@@ -22,5 +23,7 @@ galaxy_info:
     - xenial
   galaxy_tags:
     - web
+    - elk
+    - kibana
     - system
     - monitoring
